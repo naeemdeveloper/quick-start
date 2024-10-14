@@ -1,0 +1,84 @@
+/* author css */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    color: $primary-color;
+    font-family: $primary-font;
+    font-size: 1.6rem;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h4 {
+    font-size: 3rem;
+}
+
+h5 {
+    font-size: 2.4rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+    color: $primary-color;
+    font-family: $primary-font;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

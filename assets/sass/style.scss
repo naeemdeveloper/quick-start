@@ -1,0 +1,32 @@
+/*-------------------------------------------------------------
+theme name: 
+theme uri: 
+author: 
+author uri: 
+version: 1.0.0
+text domain: 
+-------------------------------------------------------------*/
+
+// setting
+@import 'settings/variable';
+
+// base
+@import 'base/base';
+
+// layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/breadcrumb';
+
+// module
+@import 'module/accordion';
+@import 'module/animation';
+@import 'module/button';
+@import 'module/form';
+@import 'module/preloader';
+@import 'module/scroll-top';
+
+// theme 
+@import 'theme/theme';
+@import 'theme/responsive';
